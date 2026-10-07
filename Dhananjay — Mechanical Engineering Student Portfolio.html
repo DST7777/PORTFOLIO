@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<!-- saved from url=(0120)https://id-preview-%2Da6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g -->
+<html lang="en" data-tsd-source="/src/routes/__root.tsx:107:5"><head data-tsd-source="/src/routes/__root.tsx:108:7"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./Dhananjay — Mechanical Engineering Student Portfolio_files/styles-oxZ854U5.css" data-precedence="default"><link rel="stylesheet" href="./Dhananjay — Mechanical Engineering Student Portfolio_files/css2" data-precedence="default"><title>Dhananjay — Mechanical Engineering Student Portfolio</title><meta name="author" content="Lovable"><meta name="twitter:site" content="@Lovable"><meta name="description" content="Portfolio of Dhananjay, first-year B.Tech Mechanical Engineering student at JECRC University, Jaipur."><meta property="og:title" content="Dhananjay — Mechanical Engineering Student Portfolio"><meta property="og:description" content="First-year B.Tech Mechanical Engineering student at JECRC University, Jaipur."><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><link rel="modulepreload" href="./Dhananjay — Mechanical Engineering Student Portfolio_files/index-DpKJFiiK.js.download"><link rel="modulepreload" href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/assets/routes-D8fy62Pu.js"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="icon" href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/favicon.ico" type="image/x-icon">
+<style>
+	#lovable-badge {
+		--badge-bg: #1b1b1b;
+		--badge-text: #c5c1b9;
+		--badge-text-hover: #dcdad5;
+		--badge-radius: 6px;
+		--badge-padding: 8px;
+		--badge-gap: 6px;
+		--badge-shadow: 
+			0 0 0 1px rgba(0, 0, 0, 0.88),
+			0 1px 0 0 rgba(0, 0, 0, 0.04),
+			0 2px 2px -1px rgba(0, 0, 0, 0.08),
+			0 4px 4px -2px rgba(0, 0, 0, 0.08),
+			0 8px 8px -4px rgba(0, 0, 0, 0.08),
+			0 16px 16px -8px rgba(0, 0, 0, 0.08);
+		--badge-transition-duration: 0.2s;
+		--badge-transition-easing: cubic-bezier(0.16, 1, 0.32, 1);
+		--focus-color: #575ECF;
+		--focus-offset: 2px;
+		--focus-width: 2px;
+		
+		position: fixed;
+		bottom: 12px;
+		right: 12px;
+		height: 24px;
+		display: flex;
+		align-items: center;
+		z-index: 1000000;
+		background-color: var(--badge-bg) !important;
+		color: var(--badge-text) !important;
+		border-radius: var(--badge-radius);
+		box-shadow: var(--badge-shadow) !important;
+		font-size: 12px;
+		font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+		font-weight: 400 !important;
+		text-transform: none !important;
+		font-feature-settings: normal !important;
+		transform: translateZ(0);
+		will-change: transform, opacity;
+		transition: opacity var(--badge-transition-duration) var(--badge-transition-easing);
+	}
+
+	#lovable-badge.closing {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	#lovable-badge-cta {
+		display: flex;
+		align-items: baseline;
+		gap: var(--badge-gap);
+		box-sizing: border-box;
+		padding: 4px var(--badge-padding) 0;
+		height: 100%;
+		color: inherit;
+		text-decoration: none;
+		white-space: nowrap;
+		border-radius: var(--badge-radius) 0 0 var(--badge-radius);
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-cta:hover {
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--badge-text-hover);
+	}
+
+	#lovable-badge-cta:active {
+		transform: scale(0.98);
+	}
+
+	#lovable-badge-cta:focus {
+		outline: none;
+	}
+
+	#lovable-badge-cta:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: var(--focus-offset);
+		z-index: 1;
+	}
+
+	#lovable-badge-text {
+		line-height: 1;
+	}
+
+	/* The wordmark baseline sits at y=12 of the 16px logo; an empty 12px box
+	   makes that the flex baseline so the text aligns to it on any system font. */
+	#lovable-badge-logo {
+		position: relative;
+		display: block;
+		width: 52px;
+		height: 12px;
+	}
+
+	#lovable-badge-logo svg {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	#lovable-badge-divider {
+		width: 1px;
+		height: 24px;
+		background-color: rgba(255, 255, 255, 0.04);
+		flex-shrink: 0;
+	}
+
+	#lovable-badge-close {
+		width: 24px;
+		height: 24px;
+		min-width: 24px;
+		min-height: 24px;
+		cursor: pointer;
+		background: none;
+		border: none;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 0 var(--badge-radius) var(--badge-radius) 0;
+		flex-shrink: 0;
+		transition: 
+			background-color var(--badge-transition-duration) ease,
+			transform 0.1s ease;
+	}
+
+	#lovable-badge-close:hover {
+		background: rgba(255, 255, 255, 0.04);
+	}
+
+	#lovable-badge-close:active {
+		transform: scale(0.92);
+	}
+
+	#lovable-badge-close:focus {
+		outline: none;
+	}
+
+	#lovable-badge-close:focus-visible {
+		outline: var(--focus-width) solid var(--focus-color);
+		outline-offset: calc(var(--focus-offset) * -1);
+		z-index: 1;
+	}
+
+	#lovable-badge-close svg path {
+		fill: var(--badge-text);
+		transition: fill var(--badge-transition-duration) ease;
+	}
+
+	#lovable-badge-close:hover svg path {
+		fill: var(--badge-text-hover);
+	}
+
+	@media (prefers-reduced-motion: reduce) {
+		#lovable-badge,
+		#lovable-badge-cta,
+		#lovable-badge-close,
+		#lovable-badge-close svg path {
+			transition: none;
+		}
+		
+		#lovable-badge-cta:active,
+		#lovable-badge-close:active {
+			transform: none;
+		}
+	}
+
+	@media (prefers-contrast: high) {
+		#lovable-badge {
+			--badge-bg: #000;
+			--badge-text: #fff;
+			--badge-text-hover: #fff;
+			border: 2px solid currentColor;
+		}
+		
+		#lovable-badge-cta:focus-visible,
+		#lovable-badge-close:focus-visible {
+			outline-width: 3px;
+		}
+	}
+</style>
+<meta name="twitter:title" content="Dhananjay — Mechanical Engineering Student Portfolio"><meta name="twitter:description" content="First-year B.Tech Mechanical Engineering student at JECRC University, Jaipur."><meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_5cfb77mjxg9bp8dfhz0v4qvp81/fbbc09595a6da12e4f41b5470463b5dc_1791374933860.png"><meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/lovp_5cfb77mjxg9bp8dfhz0v4qvp81/fbbc09595a6da12e4f41b5470463b5dc_1791374933860.png"></head><body data-tsd-source="/src/routes/__root.tsx:111:7"><!--$--><div class="min-h-screen" data-tsd-source="/src/routes/index.tsx:77:5"><header class="sticky top-0 z-50 border-b border-border bg-background/85 backdrop-blur-sm" data-tsd-source="/src/routes/index.tsx:78:7"><div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-3" data-tsd-source="/src/routes/index.tsx:79:9"><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#home" class="font-mono text-xs tracking-[0.2em] text-primary" data-tsd-source="/src/routes/index.tsx:80:11">DHANANJAY<span class="text-muted-foreground" data-tsd-source="/src/routes/index.tsx:80:96">//MECH</span></a><nav class="hidden gap-5 font-mono text-[11px] uppercase tracking-[0.15em] text-muted-foreground md:flex" data-tsd-source="/src/routes/index.tsx:81:11"><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#home" class="transition-colors hover:text-primary" data-tsd-source="/src/routes/index.tsx:82:35">Home</a><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#about" class="transition-colors hover:text-primary" data-tsd-source="/src/routes/index.tsx:82:35">About</a><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#education" class="transition-colors hover:text-primary" data-tsd-source="/src/routes/index.tsx:82:35">Education</a><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#skills" class="transition-colors hover:text-primary" data-tsd-source="/src/routes/index.tsx:82:35">Skills</a><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#work" class="transition-colors hover:text-primary" data-tsd-source="/src/routes/index.tsx:82:35">Academic Work</a><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#achievements" class="transition-colors hover:text-primary" data-tsd-source="/src/routes/index.tsx:82:35">Achievements</a><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#contact" class="transition-colors hover:text-primary" data-tsd-source="/src/routes/index.tsx:82:35">Contact</a></nav><button aria-label="Menu" class="font-mono text-xs uppercase tracking-[0.15em] text-primary md:hidden" data-tsd-source="/src/routes/index.tsx:84:11">Menu</button></div></header><section id="home" class="grid-bg border-b border-border" data-tsd-source="/src/routes/index.tsx:93:7"><div class="mx-auto grid max-w-5xl gap-10 px-6 py-20 md:grid-cols-[1.3fr_1fr] md:items-end md:py-28" data-tsd-source="/src/routes/index.tsx:94:9"><div class="rise" data-tsd-source="/src/routes/index.tsx:95:11"><span class="font-mono text-xs uppercase tracking-[0.2em] text-primary" data-tsd-source="/src/routes/index.tsx:45:10">Sheet 01 · Title Block</span><h1 class="mt-4 text-5xl font-bold leading-[0.95] tracking-tight sm:text-6xl md:text-8xl" data-tsd-source="/src/routes/index.tsx:97:13">DHANANJAY</h1><p class="mt-5 max-w-[40ch] text-lg text-muted-foreground" data-tsd-source="/src/routes/index.tsx:98:13">B.Tech Mechanical Engineering · 1st Year · JECRC University, Jaipur</p><div class="mt-8" data-tsd-source="/src/routes/index.tsx:99:13"><div class="flex flex-wrap gap-3" data-tsd-source="/src/routes/index.tsx:61:5"><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#" target="_blank" rel="noreferrer" class="border border-primary px-5 py-2.5 font-mono text-xs uppercase tracking-[0.15em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground" data-tsd-source="/src/routes/index.tsx:62:7">GitHub</a><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#" target="_blank" rel="noreferrer" class="border border-border px-5 py-2.5 font-mono text-xs uppercase tracking-[0.15em] text-muted-foreground transition-colors hover:border-primary hover:text-primary" data-tsd-source="/src/routes/index.tsx:63:7">LinkedIn</a></div></div></div><div class="rise border border-border bg-card p-5 font-mono text-xs text-muted-foreground" style="animation-delay:120ms" data-tsd-source="/src/routes/index.tsx:101:11"><div class="flex justify-between py-2 border-b border-border" data-tsd-source="/src/routes/index.tsx:103:15"><span class="uppercase" data-tsd-source="/src/routes/index.tsx:104:17">Branch</span><span class="text-primary" data-tsd-source="/src/routes/index.tsx:104:55">Mechanical</span></div><div class="flex justify-between py-2 border-b border-border" data-tsd-source="/src/routes/index.tsx:103:15"><span class="uppercase" data-tsd-source="/src/routes/index.tsx:104:17">Year</span><span class="text-primary" data-tsd-source="/src/routes/index.tsx:104:55">1st B.Tech</span></div><div class="flex justify-between py-2 border-b border-border" data-tsd-source="/src/routes/index.tsx:103:15"><span class="uppercase" data-tsd-source="/src/routes/index.tsx:104:17">Started</span><span class="text-primary" data-tsd-source="/src/routes/index.tsx:104:55">2026</span></div><div class="flex justify-between py-2 " data-tsd-source="/src/routes/index.tsx:103:15"><span class="uppercase" data-tsd-source="/src/routes/index.tsx:104:17">Status</span><span class="text-primary" data-tsd-source="/src/routes/index.tsx:104:55">Currently pursuing</span></div></div></div></section><section id="about" class="border-b border-border " data-tsd-source="/src/routes/index.tsx:50:5"><div class="reveal mx-auto max-w-5xl px-6 py-16 md:py-20 in" data-tsd-source="/src/routes/index.tsx:51:7"><span class="font-mono text-xs uppercase tracking-[0.2em] text-primary" data-tsd-source="/src/routes/index.tsx:45:10">(a) About Me</span><div class="mt-6" data-tsd-source="/src/routes/index.tsx:53:9"><p class="max-w-[62ch] text-lg leading-relaxed text-muted-foreground" data-tsd-source="/src/routes/index.tsx:112:9">I am a first-year B.Tech Mechanical Engineering student at JECRC University, Jaipur. I completed my Senior Secondary education with PCM in 2026 and joined Mechanical Engineering in 2026. I am currently building my foundation in engineering, programming, CAD, digital technologies and AI while exploring my interest in automobiles and automotive technology.</p><div class="mt-10 grid gap-8 md:grid-cols-2" data-tsd-source="/src/routes/index.tsx:115:9"><div data-tsd-source="/src/routes/index.tsx:116:11"><h3 class="font-mono text-xs uppercase tracking-[0.15em] text-foreground" data-tsd-source="/src/routes/index.tsx:117:13">Interests</h3><div class="mt-4 flex flex-wrap gap-2" data-tsd-source="/src/routes/index.tsx:118:13"><span class="border border-border px-3 py-1.5 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:119:37">Automobiles and automotive technology</span><span class="border border-border px-3 py-1.5 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:119:37">Mechanical Engineering</span><span class="border border-border px-3 py-1.5 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:119:37">CAD and 3D modelling</span><span class="border border-border px-3 py-1.5 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:119:37">Digital technology and AI</span><span class="border border-border px-3 py-1.5 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:119:37">Programming</span><span class="border border-border px-3 py-1.5 text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:119:37">Cars and automotive design</span></div></div><div data-tsd-source="/src/routes/index.tsx:122:11"><h3 class="font-mono text-xs uppercase tracking-[0.15em] text-foreground" data-tsd-source="/src/routes/index.tsx:123:13">Career Goal</h3><p class="mt-4 leading-relaxed text-muted-foreground" data-tsd-source="/src/routes/index.tsx:124:13">To develop strong technical and professional skills during my Mechanical Engineering degree and build a career in the engineering and automotive/technology field.</p></div></div></div></div></section><section id="education" class="border-b border-border bg-card" data-tsd-source="/src/routes/index.tsx:50:5"><div class="reveal mx-auto max-w-5xl px-6 py-16 md:py-20 in" data-tsd-source="/src/routes/index.tsx:51:7"><span class="font-mono text-xs uppercase tracking-[0.2em] text-primary" data-tsd-source="/src/routes/index.tsx:45:10">(b) Education</span><div class="mt-6" data-tsd-source="/src/routes/index.tsx:53:9"><div class="space-y-6" data-tsd-source="/src/routes/index.tsx:130:9"><div class="flex flex-col gap-2 border-l-2 border-primary pl-5 sm:flex-row sm:items-center sm:gap-6" data-tsd-source="/src/routes/index.tsx:135:13"><div class="w-40 shrink-0 font-mono text-xs uppercase tracking-[0.15em] text-primary" data-tsd-source="/src/routes/index.tsx:136:15">2026 — Present</div><div data-tsd-source="/src/routes/index.tsx:137:15"><div class="text-lg font-semibold" data-tsd-source="/src/routes/index.tsx:137:20">B.Tech · Mechanical Engineering</div><div class="text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:137:68">JECRC University, Jaipur · Currently pursuing – 1st Year</div></div></div><div class="flex flex-col gap-2 border-l-2 border-primary pl-5 sm:flex-row sm:items-center sm:gap-6" data-tsd-source="/src/routes/index.tsx:135:13"><div class="w-40 shrink-0 font-mono text-xs uppercase tracking-[0.15em] text-primary" data-tsd-source="/src/routes/index.tsx:136:15">Completed 2026</div><div data-tsd-source="/src/routes/index.tsx:137:15"><div class="text-lg font-semibold" data-tsd-source="/src/routes/index.tsx:137:20">Senior Secondary / Class 12 – PCM</div><div class="text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:137:68">Physics, Chemistry, Mathematics</div></div></div></div></div></div></section><section id="skills" class="border-b border-border " data-tsd-source="/src/routes/index.tsx:50:5"><div class="reveal mx-auto max-w-5xl px-6 py-16 md:py-20 in" data-tsd-source="/src/routes/index.tsx:51:7"><span class="font-mono text-xs uppercase tracking-[0.2em] text-primary" data-tsd-source="/src/routes/index.tsx:45:10">(c) Skills</span><div class="mt-6" data-tsd-source="/src/routes/index.tsx:53:9"><div class="grid grid-cols-1 gap-px border border-border bg-border sm:grid-cols-2 md:grid-cols-3" data-tsd-source="/src/routes/index.tsx:144:9"><div class="bg-background p-5 transition-colors hover:bg-card" data-tsd-source="/src/routes/index.tsx:146:13"><div class="flex justify-between font-mono text-[10px] uppercase tracking-[0.15em]" data-tsd-source="/src/routes/index.tsx:147:15"><span class="text-primary" data-tsd-source="/src/routes/index.tsx:148:17">01</span><span class="text-muted-foreground" data-tsd-source="/src/routes/index.tsx:149:25">Beginner</span></div><div class="mt-2" data-tsd-source="/src/routes/index.tsx:151:15">C Programming</div></div><div class="bg-background p-5 transition-colors hover:bg-card" data-tsd-source="/src/routes/index.tsx:146:13"><div class="flex justify-between font-mono text-[10px] uppercase tracking-[0.15em]" data-tsd-source="/src/routes/index.tsx:147:15"><span class="text-primary" data-tsd-source="/src/routes/index.tsx:148:17">02</span><span class="text-muted-foreground" data-tsd-source="/src/routes/index.tsx:149:25">Basic</span></div><div class="mt-2" data-tsd-source="/src/routes/index.tsx:151:15">AutoCAD</div></div><div class="bg-background p-5 transition-colors hover:bg-card" data-tsd-source="/src/routes/index.tsx:146:13"><div class="flex justify-between font-mono text-[10px] uppercase tracking-[0.15em]" data-tsd-source="/src/routes/index.tsx:147:15"><span class="text-primary" data-tsd-source="/src/routes/index.tsx:148:17">03</span></div><div class="mt-2" data-tsd-source="/src/routes/index.tsx:151:15">Engineering Graphics</div></div><div class="bg-background p-5 transition-colors hover:bg-card" data-tsd-source="/src/routes/index.tsx:146:13"><div class="flex justify-between font-mono text-[10px] uppercase tracking-[0.15em]" data-tsd-source="/src/routes/index.tsx:147:15"><span class="text-primary" data-tsd-source="/src/routes/index.tsx:148:17">04</span></div><div class="mt-2" data-tsd-source="/src/routes/index.tsx:151:15">Digital Data &amp; AI Literacy</div></div><div class="bg-background p-5 transition-colors hover:bg-card" data-tsd-source="/src/routes/index.tsx:146:13"><div class="flex justify-between font-mono text-[10px] uppercase tracking-[0.15em]" data-tsd-source="/src/routes/index.tsx:147:15"><span class="text-primary" data-tsd-source="/src/routes/index.tsx:148:17">05</span></div><div class="mt-2" data-tsd-source="/src/routes/index.tsx:151:15">Basic Computer Skills</div></div><div class="bg-background p-5 transition-colors hover:bg-card" data-tsd-source="/src/routes/index.tsx:146:13"><div class="flex justify-between font-mono text-[10px] uppercase tracking-[0.15em]" data-tsd-source="/src/routes/index.tsx:147:15"><span class="text-primary" data-tsd-source="/src/routes/index.tsx:148:17">06</span></div><div class="mt-2" data-tsd-source="/src/routes/index.tsx:151:15">Communication Skills</div></div></div></div></div></section><section id="work" class="border-b border-border bg-card" data-tsd-source="/src/routes/index.tsx:50:5"><div class="reveal mx-auto max-w-5xl px-6 py-16 md:py-20 in" data-tsd-source="/src/routes/index.tsx:51:7"><span class="font-mono text-xs uppercase tracking-[0.2em] text-primary" data-tsd-source="/src/routes/index.tsx:45:10">(d) Academic Work &amp; Practice</span><div class="mt-6" data-tsd-source="/src/routes/index.tsx:53:9"><div class="grid gap-px border border-border bg-border md:grid-cols-2" data-tsd-source="/src/routes/index.tsx:158:9"><div class="bg-background p-6" data-tsd-source="/src/routes/index.tsx:160:13"><div class="font-mono text-xs text-primary" data-tsd-source="/src/routes/index.tsx:161:15">PRAC-<!-- -->01</div><div class="mt-3 text-lg font-semibold leading-snug" data-tsd-source="/src/routes/index.tsx:162:15">Digital Data &amp; AI Literacy academic assignments and activities</div></div><div class="bg-background p-6" data-tsd-source="/src/routes/index.tsx:160:13"><div class="font-mono text-xs text-primary" data-tsd-source="/src/routes/index.tsx:161:15">PRAC-<!-- -->02</div><div class="mt-3 text-lg font-semibold leading-snug" data-tsd-source="/src/routes/index.tsx:162:15">AutoCAD practice and basic 3D modelling</div></div><div class="bg-background p-6" data-tsd-source="/src/routes/index.tsx:160:13"><div class="font-mono text-xs text-primary" data-tsd-source="/src/routes/index.tsx:161:15">PRAC-<!-- -->03</div><div class="mt-3 text-lg font-semibold leading-snug" data-tsd-source="/src/routes/index.tsx:162:15">C programming practice and academic exercises</div></div><div class="bg-background p-6" data-tsd-source="/src/routes/index.tsx:160:13"><div class="font-mono text-xs text-primary" data-tsd-source="/src/routes/index.tsx:161:15">PRAC-<!-- -->04</div><div class="mt-3 text-lg font-semibold leading-snug" data-tsd-source="/src/routes/index.tsx:162:15">Engineering Graphics / basic engineering drawing practice</div></div></div></div></div></section><section id="achievements" class="border-b border-border " data-tsd-source="/src/routes/index.tsx:50:5"><div class="reveal mx-auto max-w-5xl px-6 py-16 md:py-20 in" data-tsd-source="/src/routes/index.tsx:51:7"><span class="font-mono text-xs uppercase tracking-[0.2em] text-primary" data-tsd-source="/src/routes/index.tsx:45:10">(e) Achievements &amp; Activities</span><div class="mt-6" data-tsd-source="/src/routes/index.tsx:53:9"><div class="border border-dashed border-border p-10 text-center font-mono text-sm text-muted-foreground" data-tsd-source="/src/routes/index.tsx:169:9">Currently building my academic and technical portfolio.</div></div></div></section><section id="contact" class="grid-bg" data-tsd-source="/src/routes/index.tsx:174:7"><div class="reveal mx-auto flex max-w-5xl flex-col items-center px-6 py-20 text-center in" data-tsd-source="/src/routes/index.tsx:175:9"><span class="font-mono text-xs uppercase tracking-[0.2em] text-primary" data-tsd-source="/src/routes/index.tsx:45:10">(f) Contact</span><h2 class="mt-4 text-4xl font-bold tracking-tight md:text-5xl" data-tsd-source="/src/routes/index.tsx:177:11">Let's connect</h2><p class="mt-3 max-w-md text-muted-foreground" data-tsd-source="/src/routes/index.tsx:178:11">Reach out through GitHub or LinkedIn.</p><div class="mt-8" data-tsd-source="/src/routes/index.tsx:179:11"><div class="flex flex-wrap gap-3" data-tsd-source="/src/routes/index.tsx:61:5"><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#" target="_blank" rel="noreferrer" class="border border-primary px-5 py-2.5 font-mono text-xs uppercase tracking-[0.15em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground" data-tsd-source="/src/routes/index.tsx:62:7">GitHub</a><a href="https://id-preview--a6c1cdc2-d339-4501-9717-2862196a2d9e.lovable.app/?__lovable_receipt=mat_7d9r50jdzr8g1tjbr5t5ese46g#" target="_blank" rel="noreferrer" class="border border-border px-5 py-2.5 font-mono text-xs uppercase tracking-[0.15em] text-muted-foreground transition-colors hover:border-primary hover:text-primary" data-tsd-source="/src/routes/index.tsx:63:7">LinkedIn</a></div></div></div></section><footer class="border-t border-border" data-tsd-source="/src/routes/index.tsx:183:7"><div class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-2 px-6 py-6 font-mono text-[11px] text-muted-foreground" data-tsd-source="/src/routes/index.tsx:184:9"><span data-tsd-source="/src/routes/index.tsx:185:11">© Dhananjay · JECRC University</span><span data-tsd-source="/src/routes/index.tsx:185:54">DWG NO. 001 · REV A</span></div></footer></div><!--/$--><script type="module" async="" src="./Dhananjay — Mechanical Engineering Student Portfolio_files/index-DpKJFiiK.js.download"></script>
+<aside id="lovable-badge" role="complementary" dir="ltr" lang="en" aria-label="Edit with Lovable">
+	<a id="lovable-badge-cta" target="_blank" href="https://lovable.dev/projects/lovp_5cfb77mjxg9bp8dfhz0v4qvp81?utm_source=lovable-badge" rel="noopener nofollow" aria-label="Edit with Lovable">
+		<span id="lovable-badge-text">Edit with</span>
+		<span id="lovable-badge-logo"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="16" fill="none" viewBox="0 0 52 16">
+  <path fill="#FCFBF8" fill-rule="evenodd" d="M20.318 5.25c.643 0 1.206.14 1.69.418a2.81 2.81 0 0 1 1.118 1.191c.266.513.4 1.115.4 1.807s-.134 1.296-.4 1.812a2.81 2.81 0 0 1-1.118 1.193c-.484.278-1.047.418-1.69.418s-1.208-.14-1.695-.418a2.85 2.85 0 0 1-1.125-1.193c-.262-.516-.393-1.12-.393-1.812s.131-1.294.393-1.807a2.848 2.848 0 0 1 1.125-1.191c.487-.279 1.052-.418 1.695-.418Zm0 1.425c-.27 0-.504.076-.7.228-.193.147-.34.37-.443.67-.102.295-.153.66-.153 1.093 0 .435.05.801.153 1.1.102.3.25.524.443.676.196.147.43.22.7.22.27 0 .502-.073.694-.22.193-.152.341-.375.443-.67.103-.299.153-.667.153-1.106 0-.65-.112-1.145-.337-1.481a1.08 1.08 0 0 0-.953-.51ZM32.7 5.25c.61 0 1.127.1 1.549.3.422.197.74.48.953.849.217.368.325.809.325 1.32v2.704c0 .29.02.562.062.812.044.245.108.4.19.466V12h-1.935a5.895 5.895 0 0 1-.105-.684 7.745 7.745 0 0 1-.02-.228 2.293 2.293 0 0 1-.151.203c-.205.242-.47.437-.793.584-.32.143-.685.215-1.094.215-.406 0-.77-.08-1.094-.24a1.845 1.845 0 0 1-.756-.682 1.984 1.984 0 0 1-.27-1.045c0-.606.178-1.069.535-1.388.356-.324.87-.534 1.542-.633l1.125-.16c.225-.032.403-.074.534-.123a.622.622 0 0 0 .288-.196.549.549 0 0 0 .093-.327.65.65 0 0 0-.11-.367.702.702 0 0 0-.32-.27c-.14-.07-.31-.105-.51-.105-.32 0-.576.083-.768.251-.193.164-.298.39-.314.676h-1.923c.016-.434.147-.82.393-1.155.25-.34.596-.604 1.039-.792.442-.189.954-.283 1.535-.283Zm.99 3.498a.98.98 0 0 1-.215.14 2.49 2.49 0 0 1-.584.178l-.473.092c-.315.061-.553.156-.713.283-.155.127-.233.305-.233.534 0 .23.084.412.252.547.168.135.383.203.645.203s.494-.058.694-.173c.201-.118.355-.282.461-.49.11-.21.166-.448.166-.714v-.6Zm4.526-2.375c.065-.125.138-.243.221-.349.197-.25.437-.44.719-.571.282-.135.6-.203.952-.203.528 0 .988.138 1.377.412.389.275.688.67.896 1.186.21.512.314 1.12.314 1.824 0 .7-.107 1.309-.32 1.825-.213.512-.518.906-.915 1.18-.393.275-.854.412-1.383.412-.352 0-.667-.062-.946-.184a1.832 1.832 0 0 1-.7-.554 2.2 2.2 0 0 1-.234-.383V12h-1.843V3h1.862v3.373Zm1.284.296c-.274 0-.51.085-.707.253-.192.163-.338.397-.436.7a3.376 3.376 0 0 0-.148 1.05c0 .406.05.759.148 1.058.098.299.243.53.436.694.197.164.433.246.707.246.279 0 .512-.082.7-.246.193-.164.336-.395.43-.694.099-.3.148-.652.148-1.058 0-.405-.05-.757-.147-1.056-.095-.299-.238-.53-.43-.694a1.015 1.015 0 0 0-.7-.253Zm9.416-1.419c.602 0 1.136.131 1.604.393.466.262.829.643 1.086 1.143.263.5.394 1.097.394 1.794 0 .25-.002.449-.006.596H47.51c.018.288.071.538.164.75a1.3 1.3 0 0 0 .491.596c.214.13.465.196.757.196.319 0 .583-.082.792-.246.209-.167.34-.403.393-.706h1.862a2.48 2.48 0 0 1-.485 1.235 2.54 2.54 0 0 1-1.051.805c-.439.188-.949.283-1.53.283-.655 0-1.225-.125-1.708-.375a2.672 2.672 0 0 1-1.13-1.143c-.267-.508-.4-1.137-.4-1.887 0-.712.14-1.327.418-1.843a2.86 2.86 0 0 1 1.155-1.186c.491-.27 1.051-.405 1.678-.405Zm-.044 1.345c-.274 0-.516.068-.725.203a1.29 1.29 0 0 0-.479.59 2.045 2.045 0 0 0-.132.498h2.562a1.873 1.873 0 0 0-.138-.602 1.061 1.061 0 0 0-.418-.516 1.243 1.243 0 0 0-.67-.173Z" clip-rule="evenodd"></path>
+  <path fill="#FCFBF8" d="m26.605 9.995 1.342-4.566h1.924L27.628 12h-2.07l-2.33-6.57h1.98l1.397 4.565Zm-13.013.143h2.256c1.632 0 1.421 1.837 1.418 1.861h-5.603V3h1.93v7.138Zm31.516 1.861h-1.862V3h1.862v8.999Z"></path>
+  <path fill="url(#a)" fill-rule="evenodd" d="M2.7 3c1.492 0 2.7 1.192 2.7 2.663v1.012h.9c1.49 0 2.7 1.192 2.7 2.662S7.791 12 6.3 12H0V5.663C0 4.193 1.209 3 2.7 3Z" clip-rule="evenodd"></path>
+  <defs>
+    <radialgradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(-1.54236 7.07838 -10.231 -2.15602 4.627 5.022)" gradientUnits="userSpaceOnUse">
+      <stop offset=".106" stop-color="#FE7B02"></stop>
+      <stop offset=".394" stop-color="#FE3F21"></stop>
+      <stop offset=".608" stop-color="#F858BC"></stop>
+      <stop offset=".929" stop-color="#575ECF"></stop>
+    </radialgradient>
+  </defs>
+</svg>
+
+</span>
+	</a>
+	
+	<span id="lovable-badge-divider" aria-hidden="true"></span>
+	
+	<button id="lovable-badge-close" aria-label="Dismiss" title="Dismiss" type="button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" aria-hidden="true">
+			<path d="M10.646 4.646a.5.5 0 1 1 .707.708L8.707 8l2.646 2.646a.5.5 0 1 1-.707.707L8 8.707l-2.646 2.646a.5.5 0 1 1-.708-.707L7.293 8 4.646 5.354a.5.5 0 1 1 .708-.708L8 7.293l2.646-2.647Z"></path>
+		</svg>
+	</button>
+</aside>
+<script>
+	(() => {
+		if (window.self !== window.top || navigator.userAgent.includes('puppeteer')) {
+			const badge = document.querySelector('#lovable-badge');
+			if (badge) {
+				badge.style.display = 'none';
+			}
+			return;
+		}
+
+		const closeButton = document.querySelector('#lovable-badge-close');
+		if (closeButton) {
+			closeButton.addEventListener('click', function(event) {
+				event.preventDefault();
+				event.stopPropagation();
+				const badge = document.querySelector('#lovable-badge');
+				if (badge) {
+					badge.classList.add('closing');
+					setTimeout(function() {
+						if (badge) {
+							badge.style.display = 'none';
+						}
+					}, 240);
+				}
+			});
+		}
+	})();
+</script>
+<script src="./Dhananjay — Mechanical Engineering Student Portfolio_files/lovable.js.download" type="module"></script></body></html>
