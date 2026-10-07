@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhananjay | Mechanical Engineering Student</title>
+    <meta name="description"
+          content="Portfolio of Dhananjay, a Mechanical Engineering student interested in CAD, engineering design, programming and creative work.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f5f3ed;
+            color: #171717;
+            line-height: 1.6;
+        }
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background: rgba(245, 243, 237, 0.94);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #d8d5cc;
+        }
+        .nav-container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 18px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        .nav-links {
+            display: flex;
+            gap: 22px;
+            list-style: none;
+        }
+        .nav-links a {
+            text-decoration: none;
+            color: #171717;
+            font-size: 14px;
+        }
+        .nav-links a:hover {
+            color: #315c45;
+        }
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 100px 25px;
+        }
+        #home {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding-top: 120px;
+        }
+        .hero h1 {
+            font-size: clamp(55px, 10vw, 110px);
+            letter-spacing: 8px;
+            margin-bottom: 15px;
+        }
+        .hero h2 {
+            font-size: 24px;
+            font-weight: normal;
+            color: #315c45;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            max-width: 700px;
+            margin: auto;
+            color: #555;
+            font-size: 17px;
+        }
+        .buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        .button {
+            text-decoration: none;
+            padding: 13px 24px;
+            border: 1px solid #171717;
+            color: #171717;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: #171717;
+            color: white;
+        }
+        .button.primary {
+            background: #315c45;
+            color: white;
+            border-color: #315c45;
+        }
+        .button.primary:hover {
+            background: #244734;
+        }
+        .section-title {
+            font-size: 42px;
+            margin-bottom: 35px;
+            letter-spacing: 1px;
+        }
+        .section-title span {
+            color: #315c45;
+        }
+        .about-text {
+            max-width: 850px;
+            font-size: 18px;
+            color: #444;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 22px;
+        }
+        .card {
+            background: #ffffff;
+            padding: 28px;
+            border: 1px solid #dedbd2;
+            transition: 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+        }
+        .card h3 {
+            margin-bottom: 12px;
+            font-size: 22px;
+        }
+        .card h4 {
+            color: #315c45;
+            margin-bottom: 8px;
+        }
+        .card p {
+            color: #555;
+        }
+        .tags {
+            margin-top: 15px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 6px 10px;
+            margin: 4px 3px 0 0;
+            background: #e8e5dc;
+            font-size: 12px;
+        }
+        .timeline {
+            border-left: 2px solid #315c45;
+            padding-left: 25px;
+        }
+        .timeline-item {
+            margin-bottom: 30px;
+        }
+        .timeline-item h3 {
+            font-size: 22px;
+        }
+        .timeline-item span {
+            color: #315c45;
+            font-size: 14px;
+        }
+        .contact {
+            text-align: center;
+        }
+        .contact p {
+            margin: 10px 0;
+            color: #555;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #d8d5cc;
+            color: #777;
+            font-size: 14px;
+        }
+        @media (max-width: 700px) {
+            .nav-links {
+                display: none;
+            }
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            .hero h1 {
+                letter-spacing: 4px;
+            }
+            .section-title {
+                font-size: 34px;
+            }
+            section {
+                padding: 80px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- NAVIGATION -->
+<nav>
+    <div class="nav-container">
+        <div class="logo">DST.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#creative">Creative</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<!-- HOME -->
+<section id="home">
+    <div class="hero">
+        <h1>DHANAJAY</h1>
+        <h2>
+            Mechanical Engineering Student
+            <br>
+            CAD • Engineering • Creativity
+        </h2>
+        <p>
+            First-year Mechanical Engineering student at JECRC,
+            building practical skills in CAD, engineering design,
+            programming and creative problem-solving.
+        </p>
+        <div class="buttons">
+            <a href="#projects" class="button primary">
+                View Projects
+            </a>
+            <a href="https://www.linkedin.com/in/dhananjay-singh-99952b428?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" class="button">
+                LinkedIn
+            </a>
+        </div>
+    </div>
+</section>
+<!-- ABOUT -->
+<section id="about">
+    <h2 class="section-title">
+        About <span>Me</span>
+    </h2>
+    <p class="about-text">
+        I am a first-year Mechanical Engineering student at JECRC,
+        currently building my foundation in engineering, CAD,
+        programming, communication and digital technologies.
+        <br><br>
+        I enjoy learning through practical projects and applying
+        concepts to real-world problems. Alongside engineering,
+        I have a strong interest in automobiles, visual content
+        and creative editing.
+        <br><br>
+        My current focus is on developing strong technical
+        fundamentals and gaining practical experience that can
+        help me grow into a capable engineer.
+    </p>
+</section>
+<!-- EDUCATION -->
+<section id="education">
+    <h2 class="section-title">
+        <span>Education</span>
+    </h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h3>
+                B.Tech — Mechanical Engineering
+            </h3>
+            <span>
+                JECRC | 2026 – Present
+            </span>
+            <p>
+                Currently pursuing first-year Mechanical Engineering,
+                with coursework covering engineering design,
+                programming, mathematics, chemistry, communication
+                and digital technologies.
+            </p>
+        </div>
+        <div class="timeline-item">
+            <h3>
+                Senior Secondary — PCM
+            </h3>
+            <span>
+                Completed — 2026
+            </span>
+            <p>
+                Completed Senior Secondary education with Physics,
+                Chemistry and Mathematics as core subjects.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- SKILLS -->
+<section id="skills">
+    <h2 class="section-title">
+        Technical <span>Skills</span>
+    </h2>
+    <div class="grid">
+        <div class="card">
+            <h3>CAD & Engineering</h3>
+            <div class="tags">
+                <span class="tag">AutoCAD</span>
+                <span class="tag">2D CAD</span>
+                <span class="tag">3D Modelling</span>
+                <span class="tag">Engineering Drawing</span>
+                <span class="tag">Engineering Design</span>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Programming & Digital</h3>
+            <div class="tags">
+                <span class="tag">C Programming</span>
+                <span class="tag">Flowcharts</span>
+                <span class="tag">Pseudocode</span>
+                <span class="tag">Microsoft Office</span>
+                <span class="tag">Digital Literacy</span>
+                <span class="tag">AI Literacy</span>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Creative</h3>
+            <div class="tags">
+                <span class="tag">Video Editing</span>
+                <span class="tag">Automotive Content</span>
+                <span class="tag">Visual Presentation</span>
+            </div>
+        </div>
+        <div class="card">
+            <h3>Soft Skills</h3>
+            <div class="tags">
+                <span class="tag">Communication</span>
+                <span class="tag">Presentation</span>
+                <span class="tag">Teamwork</span>
+                <span class="tag">Problem Solving</span>
+                <span class="tag">Creative Thinking</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- PROJECTS -->
+<section id="projects">
+    <h2 class="section-title">
+        Projects & <span>Practical Work</span>
+    </h2>
+    <div class="grid">
+        <div class="card">
+            <h3>01 — AutoCAD 3D Model</h3>
+            <h4>AutoCAD</h4>
+            <p>
+                Created a 3D mechanical model using AutoCAD,
+                applying basic modelling, drawing and visualization
+                techniques.
+            </p>
+            <div class="tags">
+                <span class="tag">3D Modelling</span>
+                <span class="tag">CAD</span>
+                <span class="tag">Visualization</span>
+            </div>
+        </div>
+        <div class="card">
+            <h3>02 — College Cafeteria Feedback</h3>
+            <h4>Google Forms</h4>
+            <p>
+                Designed a student feedback form to collect opinions
+                about cafeteria stores, food quality, cleanliness
+                and overall student experience.
+            </p>
+            <div class="tags">
+                <span class="tag">Problem Identification</span>
+                <span class="tag">Data Collection</span>
+                <span class="tag">User Feedback</span>
+            </div>
+        </div>
+        <div class="card">
+            <h3>03 — Programming & Flowcharts</h3>
+            <h4>C Programming</h4>
+            <p>
+                Worked on introductory programming tasks involving
+                calculations, conditional statements, pseudocode,
+                logical thinking and flowcharts.
+            </p>
+            <div class="tags">
+                <span class="tag">C</span>
+                <span class="tag">Logic</span>
+                <span class="tag">Flowcharts</span>
+            </div>
+        </div>
+        <div class="card">
+            <h3>04 — Entrepreneurship & Design Thinking</h3>
+            <h4>EDP</h4>
+            <p>
+                Explored student-focused problems through problem
+                identification, ideation and design-thinking
+                activities as part of academic coursework.
+            </p>
+            <div class="tags">
+                <span class="tag">Ideation</span>
+                <span class="tag">Design Thinking</span>
+                <span class="tag">Problem Solving</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- CREATIVE WORK -->
+<section id="creative">
+    <h2 class="section-title">
+        Automotive & <span>Creative Work</span>
+    </h2>
+    <p class="about-text">
+        Outside academics, I have a strong interest in automobiles
+        and automotive visual content. I enjoy creating and editing
+        automotive-focused content while exploring visual
+        storytelling and digital creativity.
+        <br><br>
+        <strong>@DST.ate</strong> — Automotive edits, car spotting
+        and visual content.
+    </p>
+    <br>
+    <div class="grid">
+        <div class="card">
+            <h3>Automotive Editing</h3>
+            <p>
+                Creating automotive-focused visual content and
+                exploring different editing styles.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Car Spotting</h3>
+            <p>
+                Exploring automotive culture through car spotting,
+                photography and visual storytelling.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- CURRENT LEARNING -->
+<section>
+    <h2 class="section-title">
+        Currently <span>Learning</span>
+    </h2>
+    <div class="grid">
+        <div class="card">
+            <h3>Mechanical Engineering</h3>
+            <p>
+                Building strong fundamentals in mechanical
+                engineering and engineering design.
+            </p>
+        </div>
+        <div class="card">
+            <h3>CAD</h3>
+            <p>
+                Developing practical experience with AutoCAD
+                and 3D modelling.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Programming</h3>
+            <p>
+                Learning C programming, logical problem solving,
+                pseudocode and flowcharts.
+            </p>
+        </div>
+        <div class="card">
+            <h3>Professional Skills</h3>
+            <p>
+                Improving communication, presentations,
+                teamwork and problem-solving.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- GOALS -->
+<section>
+    <h2 class="section-title">
+        My <span>Goals</span>
+    </h2>
+    <div class="grid">
+        <div class="card">
+            <h3>01</h3>
+            <p>
+                Build strong technical fundamentals in Mechanical
+                Engineering.
+            </p>
+        </div>
+        <div class="card">
+            <h3>02</h3>
+            <p>
+                Improve CAD and 3D modelling skills through
+                practical projects.
+            </p>
+        </div>
+        <div class="card">
+            <h3>03</h3>
+            <p>
+                Build real-world projects that solve practical
+                problems.
+            </p>
+        </div>
+        <div class="card">
+            <h3>04</h3>
+            <p>
+                Gain industry exposure through internships,
+                workshops and future engineering opportunities.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- CONTACT -->
+<section id="contact">
+    <div class="contact">
+        <h2 class="section-title">
+            Let's <span>Connect</span>
+        </h2>
+        <p>
+            I am always open to learning, collaborating and
+            connecting with people interested in engineering,
+            technology and creative problem-solving.
+        </p>
+        <br>
+        <p>
+            <strong>LinkedIn:</strong>
+            <a href="YOUR_LINKEDIN_URL" target="_blank">
+                View Profile
+            </a>
+        </p>
+        <p>
+            <strong>Email:</strong>
+            dhananjay.26bmln0006@jecrcu.edu.in
+        </p>
+    </div>
+</section>
+<!-- FOOTER -->
+<footer>
+    © 2026 Dhananjay · Mechanical Engineering Student
+</footer>
+</body>
+</html>
